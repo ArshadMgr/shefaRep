@@ -1,0 +1,15 @@
+{
+    
+    "FirstName":"Maria", 
+    "MidleName": "J", 
+    "LastName": "Mari", 
+    "UserName": "Mari_Brown", 
+    "DOB": "08/04/1986",
+    "SSN": "123-45-678", 
+    "MaritalStatus": "married", 
+    "Gender":"Female", 
+    "PartialEEID": "maria"
+
+
+
+}

@@ -1,0 +1,51 @@
+///<reference types="cypress" />
+
+class EmployeeSmokeTest {
+
+  VisitEEPages() {
+
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/EmployeeCareerProfile.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/DirectDeposit.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/EmployeeEducation.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/EmployeeEmergencyContact.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/EmployeeEquipments.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/I9/I9.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/EmployeeLicenses.aspx')
+    //cy.aspirevisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/EmployeeNotes.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/EmployeeSkills.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/EmployeeUserAccounts.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/TaxForms/TaxForms.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/EmployeeTaxInformation.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/EmployeePayStub.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/Demographics.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employer/Onboarding/EmployeeOnboardingStepInfo.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Common/Benefits/EnrollmentWizard/BenefitEnrollmentWizard.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Common/Benefits/LifeEvents/EmployeeLifeEvents.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Common/Benefits/Reports/EnrollmentsSummaryReport.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/HR/EmployeePerformanceReviewDashboard.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/HR/PerformanceReviewJournal.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/FAQ/KnowledgeBase.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Common/Kudos/ManageKudos.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/HR/PerformanceReviewGoals.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/HR/CompanyHolidays.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/Succession.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/HR/EmployeeWarnings.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/HR/EmployeeSuggestions.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/TimeoffManagement/EmployeeTimeoffRequest.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/TimeoffManagement/EmployeeTimeoffReport.aspx')
+    //cy.aspirevisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/FileCabinet/FileCabinet.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/Files/EmployeeForms/MyEmployeeForms.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/Payroll/Timesheet.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Common/Tasks/Kanban.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Common/Tasks/Task.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Common/Tasks/TaskGroup.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Common/Tasks/TaskList.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/ScheduleManagement/EmployeeSchedulePreference.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/ScheduleManagement/EmployeeSchedule.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Employee/ScheduleManagement/EmployeeTradeShifts.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Common/MessageCenter/Messages.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/UserProfile.aspx')
+    cy.aspireVisit('https://abc.mypaperlessoffice.com/app/Sys/Logoff.aspx')
+  }
+}
+export default EmployeeSmokeTest
